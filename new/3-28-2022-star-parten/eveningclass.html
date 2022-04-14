@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		span{
+			/*font-size: 30px;*/
+			color: rgb(255, 255, 255);
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	for(let i=1;i<=5;i++){
+		for(let j=1;j<=5;j++){
+			if(i==1||j==1||i==5||j==5||i==j){
+			document.write("*");
+		}
+		else{
+			document.write("<span>*</span>")
+		}}
+		document.write("</br>")
+	}
+
+	for(let i=1;i<=5;i++){
+		for(let j=1;j<=5;j++){
+			if(i==1||j==1||i==5||j==5||j>i||i<j){
+			//  if(i==1||j==1||i==5||j==5||j==i){
+			document.write("*");
+		}
+		else{
+			document.write("<span>*</span>")
+		}}
+		document.write("</br>")
+	}
+</script>
+</body>
+</html>
+
+
+<!-- 
+MERN STACK
+M-:mongo
+E-:express
+R-:react
+N-:node js -->

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>aray</title>
+</head>
+<body>
+    <script>
+        let kamal = ["1" , "2", "3", "4","5","6"]
+        let pushap =["10" ,"20","30","40","50"]
+       
+
+        // let kamal_1 =
+        // console.log(kamal)
+        // console.log(kamal[3])
+        // console.log(kamal[5])
+
+
+        //push
+        document.write("push" + "<br>")
+        kamal.push("kamal") ;
+        document.write(kamal)
+        // let kamal_1=  kamal.push("kamal") ;
+        // document.write(kamal_1)
+
+        //pop = last remove
+        document.write('<br>')
+        kamal.pop()
+        document.write(kamal)
+
+        // slice = index get you 
+
+        document.write('<br>')
+        document.write(kamal.slice(3,6))
+
+
+         // slice = first remove
+        document.write('<br>')
+        kamal.shift()
+        document.write(kamal)
+        console.log(kamal)
+
+        //add data in first 
+        document.write('<br>')
+        kamal.unshift("hello")
+        document.write(kamal)
+
+        // aray to aray goay 
+        document.write('<br>')
+        console.log(kamal + "," + pushap)
+
+
+        // empty aray = empty space count
+        let pushap_1 =[1, , 2,3,4,5,6]
+        document.write(pushap_1)
+    </script>
+</body>
+</html>
